@@ -21,3 +21,6 @@
 
 	![alt text](https://github.com/user-attachments/assets/a707fd3d-8f83-4f7b-88e3-50aed964569e)
 
+
+
+- install_aws_cli.sh installs AWS CLI. I used ChatGPT to write the script and the prompt fed to it was "write a bash script on AWS CLI that that checks if root, otherwise it exits and prompts the user that root is required, checks to make sure that the system package manager is apt, otherwise it exits and prompts the user to use apt, provides the user with information on what will be installed with a (y/n) prompt, checks if name of software or software (not each of its dependencies) exists - exits if software is found (or if software name is taken) and prompts the user that a name conflict occurred, silently installs the software, prompts the user when completed and gives a command to show it".
